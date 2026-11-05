@@ -5328,14 +5328,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@currents/playwright@npm:2.6.0":
-  version: 2.6.0
-  resolution: "@currents/playwright@npm:2.6.0"
+"@currents/playwright@file:./currents-playwright-2.7.0-main.a8fce8a7.tgz::locator=twenty-e2e-testing%40workspace%3Apackages%2Ftwenty-e2e-testing":
+  version: 2.7.0-main.a8fce8a7
+  resolution: "@currents/playwright@file:./currents-playwright-2.7.0-main.a8fce8a7.tgz#./currents-playwright-2.7.0-main.a8fce8a7.tgz::hash=b2610e&locator=twenty-e2e-testing%40workspace%3Apackages%2Ftwenty-e2e-testing"
   dependencies:
     "@babel/code-frame": "npm:^7.29.7"
     "@commander-js/extra-typings": "npm:^13.1.0"
     "@currents/commit-info": "npm:2.0.0"
-    "@currents/rules": "npm:^0.1.0"
+    "@currents/rules": "npm:0.1.0"
     async-retry: "npm:^1.3.3"
     chalk: "npm:^4.1.2"
     commander: "npm:^13.1.0"
@@ -5363,16 +5363,16 @@ __metadata:
     tmp: "npm:^0.2.7"
     tmp-promise: "npm:^3.0.3"
     ts-pattern: "npm:^5.9.2"
-    undici: "npm:^6.29.1"
-    ws: "npm:^8.21.3"
+    undici: "npm:^7.30.1"
+    ws: "npm:^8.22.0"
   bin:
-    pwc: dist/bin/pwc.js
-    pwc-p: dist/bin/pwc-p.js
-  checksum: 10c0/fd3431b2681e75036c50a8a1c57435901b34852e2765fdfa46c2f010cc58d8b81dfb12514f777d6cd18bbc8aa325afb47fc952f916c4caed05e963c43d4a4462
+    pwc: ./dist/bin/pwc.js
+    pwc-p: ./dist/bin/pwc-p.js
+  checksum: 10c0/963c4187b16f7113efa95d075a709675d55dd40d929d7fbee7fd05a5b5a14af7d6e11dc13a390fc0a991598c2aa46b48c7f3cfc67290e271c979ec69524c6839
   languageName: node
   linkType: hard
 
-"@currents/rules@npm:^0.1.0":
+"@currents/rules@npm:0.1.0":
   version: 0.1.0
   resolution: "@currents/rules@npm:0.1.0"
   dependencies:
@@ -50729,7 +50729,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "twenty-e2e-testing@workspace:packages/twenty-e2e-testing"
   dependencies:
-    "@currents/playwright": "npm:2.6.0"
+    "@currents/playwright": "file:./currents-playwright-2.7.0-main.a8fce8a7.tgz"
     "@playwright/test": "npm:^1.60.0"
     playwright: "npm:^1.60.0"
   languageName: unknown
@@ -52003,17 +52003,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici@npm:^6.29.1":
-  version: 6.29.1
-  resolution: "undici@npm:6.29.1"
-  checksum: 10c0/2d6970289fcbaca69a484e968fbb5e6fdadf7d9bff30bb5476f71b619d143ec76df1c75a309ac3cb3b3d78238793c613dcaad47dc9d92b63f9e8e73b86ffec23
-  languageName: node
-  linkType: hard
-
 "undici@npm:^7.24.4, undici@npm:^7.29.0, undici@npm:^7.29.1":
   version: 7.30.0
   resolution: "undici@npm:7.30.0"
   checksum: 10c0/011a321a9198532b0f0504740faa43b9ab8fcc0e4f60104e5c9cb808a61faeb03e4be4aec4f0c65f47913d7c7d9d91591793a6cb9ab843f98ca2c3d711c4a34c
+  languageName: node
+  linkType: hard
+
+"undici@npm:^7.30.1":
+  version: 7.30.1
+  resolution: "undici@npm:7.30.1"
+  checksum: 10c0/c838089b010e8e28a9a5358d4bf4621e0c8d7bb70058b23e819667349c4c0b6791a7c8bc9bbe94ff0923db132faae0d9d9592b9743eda4f2b49466fa57482213
   languageName: node
   linkType: hard
 
@@ -54053,9 +54053,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ws@npm:^8.21.3":
-  version: 8.22.0
-  resolution: "ws@npm:8.22.0"
+"ws@npm:^8.22.0":
+  version: 8.22.1
+  resolution: "ws@npm:8.22.1"
   peerDependencies:
     bufferutil: ^4.0.1
     utf-8-validate: ">=5.0.2"
@@ -54064,7 +54064,7 @@ __metadata:
       optional: true
     utf-8-validate:
       optional: true
-  checksum: 10c0/7304d14ef38898dd366a528a85e2da389c4eebf30f4ce8a007bd2dce6025f9b619cefe44fe2354f0bad0ec541b1c9a4da06a3f3e046ab56f01fd52d5784ecfb2
+  checksum: 10c0/858ccc31e56a7549c25d0bfd522b65c64f7bffdc5460eeb4c29517d34728d34de102d2ebf8296160c8b4594fd45ead6a324acd9a1ea0b0b8742bbed4d52d9a51
   languageName: node
   linkType: hard
 
